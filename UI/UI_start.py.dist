@@ -1,0 +1,10 @@
+from PyQt5.QtWidgets import QApplication
+from UI.custom.get_require_and_start import MainWindow
+import sys
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    w = MainWindow()
+    w.show_window_1()
+    sys.exit(app.exec_())
+

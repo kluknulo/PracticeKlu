@@ -1,0 +1,2 @@
+pyrogram = 1.2.9
+pymorphy2 = 0.9.1

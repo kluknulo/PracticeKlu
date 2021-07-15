@@ -1,0 +1,101 @@
+ {
+    "_": "types.BotInlineResult",
+    "id": "379027",
+    "type": "article",
+    "send_message": {
+        "_": "types.BotInlineMessageText",
+        "message": " Книги на миллион | бизнес блог\n\nАудиокниги и книги на миллион это:  ▫️ Краткие выжимки из редких книг, удобно читать - https://bit.ly/2VaUfms ▫️ Слушай подкаст, где хочешь - https://vk.cc/9AB4VQ  👉 Реклама - @jaMasha",
+        "no_webpage": false,
+        "entities": [
+            {
+                "_": "types.MessageEntityTextUrl",
+                "offset": 0,
+                "length": 1,
+                "url": "https://tgstat.ru/channel/@ikniga/searchee-widget.png?v_20210705180ru"
+            },
+            {
+                "_": "types.MessageEntityBold",
+                "offset": 1,
+                "length": 30
+            },
+            {
+                "_": "types.MessageEntityItalic",
+                "offset": 33,
+                "length": 109
+            },
+            {
+                "_": "types.MessageEntityUrl",
+                "offset": 120,
+                "length": 22
+            },
+            {
+                "_": "types.MessageEntityItalic",
+                "offset": 143,
+                "length": 52
+            },
+            {
+                "_": "types.MessageEntityUrl",
+                "offset": 175,
+                "length": 20
+            },
+            {
+                "_": "types.MessageEntityItalic",
+                "offset": 197,
+                "length": 21
+            },
+            {
+                "_": "types.MessageEntityMention",
+                "offset": 210,
+                "length": 8
+            }
+        ],
+        "reply_markup": {
+            "_": "types.ReplyInlineMarkup",
+            "rows": [
+                {
+                    "_": "types.KeyboardButtonRow",
+                    "buttons": [
+                        {
+                            "_": "types.KeyboardButtonUrl",
+                            "text": "Перейти в канал",
+                            "url": "http://t.me/ikniga"
+                        }
+                    ]
+                },
+                {
+                    "_": "types.KeyboardButtonRow",
+                    "buttons": [
+                        {
+                            "_": "types.KeyboardButtonCallback",
+                            "text": "▼ Категории",
+                            "data": "b'categories'",
+                            "requires_password": false
+                        },
+                        {
+                            "_": "types.KeyboardButtonSwitchInline",
+                            "text": "🔎 Поиск",
+                            "query": "бизнес",
+                            "same_peer": true
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "title": "Книги на миллион | бизнес блог",
+    "description": "@ikniga [612931 подписчиков]",
+    "thumb": {
+        "_": "types.WebDocument",
+        "url": "https://static10.tgstat.ru/channels/_100/c0/c09d04e62cab3193331ab11316a27ec6.jpg?v202107_27",
+        "access_hash": -3092631733587160528,
+        "size": 0,
+        "mime_type": "image/jpeg",
+        "attributes": [
+            {
+                "_": "types.DocumentAttributeImageSize",
+                "w": 10,
+                "h": 10
+            }
+        ]
+    }
+}
